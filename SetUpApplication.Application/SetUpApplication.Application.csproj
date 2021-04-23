@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementations\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SetUpApplication.Data.EF\SetUpApplication.Data.EF.csproj" />
+    <ProjectReference Include="..\SetUpApplication.Data\SetUpApplication.Data.csproj" />
+    <ProjectReference Include="..\SetUpApplication.Utilities\SetUpApplication.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
